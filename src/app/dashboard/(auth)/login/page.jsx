@@ -10,9 +10,9 @@ const Login = () => {
   if(session.status ==="loading"){
     return <p>Loading....</p>
   }
-  if(session.status ==="unauthenticated"){
-    router?.push("/dashboard")
-  }
+  // if(session.status ==="unauthenticated"){
+  //   router?.push("/dashboard")
+  // }
 
   const handleSubmit =async(e)=>{
       e.preventDefault()

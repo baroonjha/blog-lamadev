@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import HomeImage from 'public/homepageImage.jpg'
+import HomeImage from '/public/homepageImage.jpg'
 import Button from '@/components/button/Button'
 
 export default function Home() {
