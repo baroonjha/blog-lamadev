@@ -1,0 +1,41 @@
+.mainTitle{
+    margin:20px 0;
+}
+.selectTitle{
+
+}
+.items{
+    display: flex;
+    gap:50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.item{
+    display: flex;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    background-size: cover !important;
+}
+.item:nth-child(1){
+    background: url('/illustration.png');
+}
+.item:nth-child(2){
+    background: url('/websites.jpg');
+}
+.item:nth-child(3){
+    background: url('/apps.jpg');
+}
+
+.title{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.item:hover .title{
+    color: #f36161;
+}

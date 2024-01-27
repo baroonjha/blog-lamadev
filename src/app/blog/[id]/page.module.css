@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  margin: 20px 10px;
+}
+.title{
+    margin-bottom: 20px;
+}
+
+.imageContainer {
+  height: 250px;
+  width: 500px;
+  position: relative;
+}
+.image {
+  object-fit: contain;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 550px;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.avatar {
+  border-radius: 20px;
+}
+.details {
+  margin-bottom: 100px;
+  font-size: 18px;
+  font-weight: 300;
+}
