@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
-import contactSupport from "/public/contactSupport.jpg";
+// import contactSupport from "/public/contactSupport.jpg";
 import Button from "@/components/button/Button";
 
 export const metadata = {
@@ -15,7 +15,7 @@ const contact = () => {
       <h2 className={styles.title}>Let's Keep in Touch</h2>
       <div className={styles.content}>
         <div className={styles.contactImage}>
-          <Image className={styles.image} src={contactSupport} alt="" fill={true} />
+          <Image className={styles.image} src="contactSupport.jpg" alt="" fill={true} />
         </div>
         <form className={styles.form}>
           <input className={styles.input} type="text" placeholder="Name" />
